@@ -1,0 +1,212 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .main-page {
+        background-image: url(./images/mobistar1.svg),
+            url(./images/mobilestar2.svg),
+            url(./images/mobilestar3.svg),
+            url(./images/mobilestar4.svg),
+            url(./images/mobilestar5.svg);
+        background-position: calc(100% + 90px) -85px,
+            calc(100% - 34px) calc(100% - 79px),
+            calc(100% - 86px) calc(100% - 125px),
+            37px 97px,
+            91px 64px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 700px;
+
+        &__title {
+            padding-top: 147px;
+            font-size: 40px;
+            line-height: 122.5%;
+            text-align: center;
+            max-width: 262px;
+
+        }
+
+        &__text {
+            font-size: 16px;
+            line-height: 125%;
+            text-align: center;
+            max-width: 296px;
+        }
+
+        &__btn {
+            margin-top: 36px;
+            width: 285px;
+            height: 55px;
+            font-size: 16px;
+            line-height: 141.69%;
+            text-align: center;
+        }
+
+        &__btn:hover {
+            border: 1px solid rgb(32, 32, 39);
+            background-color: rgb(32, 32, 39);
+            color: rgb(255, 255, 255);
+        }
+
+        &__animation-line {
+            height: 51.34px;
+            padding: 16px 17px 16px 17px;
+        }
+
+        &__animation-wrapper {
+            column-gap: 27.4px;
+        }
+
+        &__animation-content {
+            column-gap: 27.4px;
+        }
+
+        &__animation-line-text {
+            font-size: 16px;
+            line-height: 110%;
+            letter-spacing: 0.64px;
+            text-transform: uppercase;
+        }
+
+        &__animation-star {
+            width: 19.34px;
+            height: auto;
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+    
+            100% {
+                transform: translateX(calc(-50% - 13.7px));
+            }
+        }
+
+    }
+
+    .games {
+        display: none;
+    }
+
+    .mini-games {
+        padding-bottom: 48.88px;
+        background-image: none;
+
+        &__title {
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 122.5%;
+        }
+
+        &__card-block {
+            margin-top: 48px;
+            row-gap: 24px;
+        }
+    }
+
+    .minigame-card {
+        flex-direction: column;
+        height: 528.63px;
+
+        &-med {
+            height: 567.63px;
+        }
+
+        &-high {
+            height: 606.63px;
+        }
+
+        &-highest {
+            height: 626.63px;
+        }
+
+        &__img {
+            width: 100%;
+            height: 284.93px;
+        }
+
+        .img1 {
+            background-image: url(./images/game-1_mobile.png);
+        }
+
+        .img2 {
+            background-image: url(./images/game2_mobile.png);
+        }
+
+        .img3 {
+            background-image: url(./images/game3_mobile.png);
+        }
+
+        .img4 {
+            background-image: url(./images/game4_mobile.png);
+        }
+
+        .img5 {
+            background-image: url(./images/game5_mobile.png);
+        }
+
+        .img6 {
+            background-image: url(./images/game6_mobile.png);
+        }
+
+        &__info {
+            width: 100%;
+            padding: 29.04px 29.04px 32.67px 29.04px;
+        }
+
+        &__name {
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 122%;
+            margin-bottom: 16px;
+        }
+
+        &__desc {
+            color: rgb(0, 0, 0);
+            font-size: 16px;
+            line-height: 125%;
+            margin-bottom: 32px;
+            max-width: 280px;
+
+            &-wide {
+                max-width: 240px;
+            }
+        }
+
+        &__btn {
+            width: 100%;
+            height: 55px;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        &__btn:hover {
+            border: 1px solid rgb(32, 32, 39);
+            background-color: rgb(32, 32, 39);
+            color: rgb(255, 255, 255);
+        }
+    }
+
+    .minigame-card:nth-child(2n-1) {
+        flex-direction: column;
+    }
+
+    .footer {
+        height: 100px;
+        padding-top: 40px;
+
+        &__text {
+            color: rgb(0, 0, 0);
+            font-size: 16px;
+            line-height: 125%;
+        }
+    }
+
+
+
+
+}

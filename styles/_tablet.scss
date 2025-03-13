@@ -1,0 +1,106 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+    .center {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .main-page {
+        background-image: url(./images/mobistar1.svg),
+            url(./images/mobilestar2.svg),
+            url(./images/mobilestar3.svg),
+            url(./images/mobilestar4.svg),
+            url(./images/mobilestar5.svg);
+        background-position: calc(100% + 90px) -85px,
+            calc(100% - 34px) calc(100% - 79px),
+            calc(100% - 86px) calc(100% - 125px),
+            37px 97px,
+            91px 64px;
+
+        &__title {
+            font-size: 54px;
+        }
+
+        &__animation-line {
+            height: 60px;
+            padding: 20px 24px;
+        }
+
+    }
+
+    .games {
+        padding-top: 64px;
+
+        &__title {
+            font-size: 54px;
+        }
+
+        &__card-block {
+            row-gap: 32px;
+            justify-content: center;
+        }
+    }
+
+    .game-card {
+        width: 340px;
+        height: 512px;
+
+        &-small {
+            height: 512px;
+        }
+
+        &-big {
+            height: 512px;
+        }
+
+        &__name {
+            width: 100%;
+            font-size: 28px;
+        }
+    }
+
+    .mini-games {
+        padding-bottom: 96px;
+        &__title {
+            font-size: 54px;
+        }
+    }
+
+    .minigame-card {
+        height: 382px;
+
+        &__info {
+            padding: 32px;
+        }
+
+        &__name {
+            font-size: 32px;
+            margin-bottom: 18px;
+            max-width: 100%;
+        }
+
+        &__desc {
+            font-size: 24px;
+            margin-bottom: 18px;
+            max-width: 100%;
+        }
+
+        &__btn {
+            height: 45px;
+            padding: 8px 28px;
+            line-height: 120%;
+            width: 200px;
+        }
+
+        .img1, .img5, .img4  {
+            background-position: 50% 50%;
+        }
+
+    }
+
+    .footer {
+        height: 120px;
+        padding-top: 48px;
+    }
+
+
+}
